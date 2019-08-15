@@ -1,0 +1,22 @@
+[Thu May 23 2019 22:55:52 GMT+0300 (Moscow Standard Time)] -  [+] Authentication valid.
+- 
+Sending files (trial 1) - file=./Dockerfile size=339 operation=C
+Sending files (trial 1) - file=./log.txt size=91 operation=C
+2/2
+[ { location: [32m'canada'[39m,
+    result: { status: [32m'Operation in progress'[39m } } ]
+Checking credits available
+Preparing repository
+Clearing website container
+Preparing core instance...
+Preparing website image and spawning website container (docker-compose)...
+Creating network "app_default" with the default driver
+Building www
+Error processing tar file(signal: segmentation fault (core dumped)): runtime/cgo: pthread_create failed: No space left on device
+runtime/cgo: pthread_create failed: No space left on device
+Attaching to
+[ { [32m'HTTP(S) port listening'[39m: [33mfalse[39m,
+    valid: [33mfalse[39m,
+    [32m'Help Links'[39m: { [32m'View All Docs'[39m: [32m'https://www.openode.io/docs'[39m },
+    Error: [32m'Unable to complete the build successfully.'[39m,
+    buildDuration: [33m30.082[39m } ]
